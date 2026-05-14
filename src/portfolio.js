@@ -19,15 +19,14 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
-const greeting = {
+cconst greeting = {
   username: "G M Laasya",
-  title: "Hi all, I'm G M Laasya ",
+  title: "Hi all, I'm G M Laasya",
   subTitle: emoji(
-  "Computer Science Engineering student passionate about Artificial Intelligence, secure systems, and problem solving."
-),
-
-resumeLink: "/G_M_Laasya_Resume(24.03.2026).pdf", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "Computer Science Engineering student passionate about Artificial Intelligence, secure systems, and problem solving."
+  ),
+  resumeLink: "/G_M_Laasya_Resume(24.03.2026).pdf",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -44,11 +43,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-    "PASSIONATE COMPUTER SCIENCE ENGINEERING STUDENT INTERESTED IN ARTIFICIAL INTELLIGENCE, CYBERSECURITY, AND INTELLIGENT SYSTEMS",
+    "PASSIONATE COMPUTER SCIENCE ENGINEERING STUDENT INTERESTED IN ARTIFICIAL INTELLIGENCE,  AND INTELLIGENT SYSTEMS",
 
   skills: [
     "⚡ Build AI-powered and intelligent applications",
-    "⚡ Develop secure systems using encryption techniques",
     "⚡ Work with Java, Python, SQL, and problem-solving",
     "⚡ Explore research-driven and real-world technology solutions"
   ],
@@ -85,26 +83,17 @@ const skillsSection = {
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "B V Raju Institute of Technology",
+      subHeader: "B.Tech in Computer Science and Engineering",
+      duration: "2023 - 2027",
+      desc: "Currently pursuing B.Tech in Computer Science and Engineering with interests in Artificial Intelligence, Cybersecurity, Cloud Computing, and Secure Systems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Interested in Artificial Intelligence, Cloud Computing",
+        "Actively improving Data Structures, Algorithms, and Problem Solving skills"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -112,22 +101,30 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Programming (Java, Python, C)",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Backend",
+      Stack: "Cryptography",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Cloud Computing",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Artificial Intelligence & Machine Learning",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Frontend Development (HTML, CSS, JavaScript)",
+      progressPercentage: "65%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -290,65 +287,35 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  displayMediumBlogs: "false",
+  blogs: [],
+  display: false
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: emoji(""),
+  talks: [],
+  display: false
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  podcast: [],
+  display: false
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const contactInfo = {
@@ -362,10 +329,9 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "",
+  display: false
 };
-
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {

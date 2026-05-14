@@ -77,7 +77,6 @@ const skillsSection = {
   display: true
 };
 
-
 // Education Section
 
 const educationInfo = {
@@ -138,8 +137,7 @@ const workExperiences = {
       companylogo: require("./assets/images/Mirai Certificate.jpeg"),
       date: "2026",
 
-      desc:
-        "Completed an AI Summer Internship focused on Artificial Intelligence tools, frameworks, and real-world project development. Gained practical exposure to intelligent systems and AI-based problem-solving.",
+      desc: "Completed an AI Summer Internship focused on Artificial Intelligence tools, frameworks, and real-world project development. Gained practical exposure to intelligent systems and AI-based problem-solving.",
 
       descBullets: [
         "Explored AI tools and frameworks",
@@ -168,7 +166,6 @@ const bigProjects = {
 
   projects: [
     {
-      
       projectName: "Verified Document Intelligence System",
       projectDesc:
         "AI-powered document analysis assistant that enables users to upload PDFs and query their content intelligently. The system performs self-verification, confidence scoring, and performance tracking to reduce hallucinated responses in traditional AI systems.",
@@ -181,7 +178,6 @@ const bigProjects = {
     },
 
     {
-      
       projectName: "AI-Powered Resume and Job Description Matcher",
       projectDesc:
         "Intelligent resume matching system that helps job seekers and recruiters by comparing resumes with job descriptions to identify the best fit using AI-driven matching techniques.",
@@ -194,7 +190,6 @@ const bigProjects = {
     },
 
     {
-      
       projectName: "JourneyX AI Planner",
       projectDesc:
         "AI-powered travel planning application that generates personalized itineraries, estimated budgets, and travel recommendations based on destination, preferences, dates, and user inputs.",
@@ -209,20 +204,17 @@ const bigProjects = {
 
   display: true
 };
-  
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: "Achievements & Certifications",
-  subtitle:
-    "RESEARCH CONTRIBUTIONS, CERTIFICATIONS, AND ACADEMIC ACHIEVEMENTS",
+  subtitle: "RESEARCH CONTRIBUTIONS, CERTIFICATIONS, AND ACADEMIC ACHIEVEMENTS",
 
   achievementsCards: [
     {
-      title:
-        "Quantum Safe Encryption for Securing Healthcare Data",
+      title: "Quantum Safe Encryption for Securing Healthcare Data",
       subtitle:
         "Published research paper in the 2025 3rd World Conference on Communication & Computing (WCONF). Developed a quantum-safe encryption framework using CRYSTALS-Kyber, Diffie-Hellman key exchange, and AES encryption for securing healthcare data.",
       image: require("./assets/images/Quantum Safe Paper Certificate.jpeg"),
@@ -236,8 +228,7 @@ const achievementSection = {
     },
 
     {
-      title:
-        "Salesforce Certified Agentforce Specialist",
+      title: "Salesforce Certified Agentforce Specialist",
       subtitle:
         "Professional certification in Salesforce Agentforce technologies (Dec 2025).",
       image: require("./assets/images/SalesForce Certificate.jpeg"),
@@ -245,8 +236,7 @@ const achievementSection = {
     },
 
     {
-      title:
-        "SQL and Relational Databases 101",
+      title: "SQL and Relational Databases 101",
       subtitle:
         "Completed certification by IBM Developer Skills Network focused on SQL fundamentals and relational databases (May 2025).",
       image: require("./assets/images/IBM SQL Certificate.jpeg"),
@@ -255,8 +245,7 @@ const achievementSection = {
     },
 
     {
-      title:
-        "Frontend with JavaScript",
+      title: "Frontend with JavaScript",
       subtitle:
         "Completed certification by TASK focused on frontend development concepts using JavaScript (Feb 2025).",
       image: require("./assets/images/Frontend with Js Certificate.jpeg"),
@@ -265,8 +254,7 @@ const achievementSection = {
     },
 
     {
-      title:
-        "Java Foundations Certificate",
+      title: "Java Foundations Certificate",
       subtitle:
         "Completed Oracle Academy certification covering Java fundamentals and programming concepts (Sep 2024).",
       image: require("./assets/images/java foundations Certificate.jpeg"),
@@ -275,8 +263,7 @@ const achievementSection = {
     },
 
     {
-      title:
-        "Generative AI",
+      title: "Generative AI",
       subtitle:
         "Completed Google Cloud certification focused on Generative AI concepts and applications (Aug 2024).",
       image: require("./assets/images/generative AI Certificate.jpeg"),

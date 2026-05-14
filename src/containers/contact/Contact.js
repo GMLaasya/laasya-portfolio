@@ -50,7 +50,6 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          
         </div>
       </div>
     </Fade>

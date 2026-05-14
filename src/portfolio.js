@@ -166,7 +166,7 @@ const bigProjects = {
 
   projects: [
     {
-      image: "documentAI",
+      
       projectName: "Verified Document Intelligence System",
       projectDesc:
         "AI-powered document analysis assistant that enables users to upload PDFs and query their content intelligently. The system performs self-verification, confidence scoring, and performance tracking to reduce hallucinated responses in traditional AI systems.",
@@ -179,7 +179,7 @@ const bigProjects = {
     },
 
     {
-      image: "resumeAI",
+      
       projectName: "AI-Powered Resume and Job Description Matcher",
       projectDesc:
         "Intelligent resume matching system that helps job seekers and recruiters by comparing resumes with job descriptions to identify the best fit using AI-driven matching techniques.",
@@ -192,7 +192,7 @@ const bigProjects = {
     },
 
     {
-      image: "journeyAI",
+      
       projectName: "JourneyX AI Planner",
       projectDesc:
         "AI-powered travel planning application that generates personalized itineraries, estimated budgets, and travel recommendations based on destination, preferences, dates, and user inputs.",
@@ -223,6 +223,7 @@ const achievementSection = {
         "Quantum Safe Encryption for Securing Healthcare Data",
       subtitle:
         "Published research paper in the 2025 3rd World Conference on Communication & Computing (WCONF). Developed a quantum-safe encryption framework using CRYSTALS-Kyber, Diffie-Hellman key exchange, and AES encryption for securing healthcare data.",
+      image: require("./assets/images/Quantum Safe Paper Certificate.jpeg"),
 
       footerLink: [
         {
@@ -237,7 +238,7 @@ const achievementSection = {
         "Salesforce Certified Agentforce Specialist",
       subtitle:
         "Professional certification in Salesforce Agentforce technologies (Dec 2025).",
-
+      image: require("./assets/images/SalesForce Certificate.jpeg"),
       footerLink: []
     },
 
@@ -246,6 +247,7 @@ const achievementSection = {
         "SQL and Relational Databases 101",
       subtitle:
         "Completed certification by IBM Developer Skills Network focused on SQL fundamentals and relational databases (May 2025).",
+      image: require("./assets/images/IBM SQL Certificate.jpeg"),
 
       footerLink: []
     },
@@ -255,6 +257,7 @@ const achievementSection = {
         "Frontend with JavaScript",
       subtitle:
         "Completed certification by TASK focused on frontend development concepts using JavaScript (Feb 2025).",
+      image: require("./assets/images/Frontend with Js Certificate.jpeg"),
 
       footerLink: []
     },
@@ -264,6 +267,7 @@ const achievementSection = {
         "Java Foundations Certificate",
       subtitle:
         "Completed Oracle Academy certification covering Java fundamentals and programming concepts (Sep 2024).",
+      image: require("./assets/images/java foundations Certificate.jpeg"),
 
       footerLink: []
     },
@@ -273,6 +277,7 @@ const achievementSection = {
         "Generative AI",
       subtitle:
         "Completed Google Cloud certification focused on Generative AI concepts and applications (Aug 2024).",
+      image: require("./assets/images/generative AI Certificate.jpeg"),
 
       footerLink: []
     }

@@ -31,89 +31,51 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/GMLaasya",
+  linkedin: "https://www.linkedin.com/in/g-m-laasya-083162293/",
+  gmail: "mailto:23211a0586@bvrit.ac.in",
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+  title: "What I Do",
+  subTitle:
+    "PASSIONATE COMPUTER SCIENCE ENGINEERING STUDENT INTERESTED IN ARTIFICIAL INTELLIGENCE, CYBERSECURITY, AND INTELLIGENT SYSTEMS",
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  skills: [
+    "⚡ Build AI-powered and intelligent applications",
+    "⚡ Develop secure systems using encryption techniques",
+    "⚡ Work with Java, Python, SQL, and problem-solving",
+    "⚡ Explore research-driven and real-world technology solutions"
+  ],
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "C"
     }
+    {
+      skillName: "Java"
+    },
+    {
+      skillName: "Python"
+    },
+    {
+      skillName: "SQL"
+    },
+    {
+      skillName: "HTML"
+    },
+    {
+      skillName: "CSS"
+    },
+    {
+      skillName: "JavaScript"
+    }
+  ],
+  display: true
+};
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -169,34 +131,26 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  title: "Experience",
+  subtitle: "INTERNSHIPS AND PRACTICAL LEARNING EXPERIENCE",
+
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "AI Summer Intern",
+      company: "Mirai School of Technology",
+      date: "2026",
+      desc:
+        "Gained hands-on experience with AI tools, frameworks, and real-world project development. Worked on applying AI concepts to practical problem-solving while strengthening knowledge in intelligent systems and emerging technologies.",
+
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Explored AI tools and frameworks",
+        "Worked on real-time AI-based projects",
+        "Strengthened practical AI knowledge"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
-  ]
+  ],
+
+  display: true
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -210,95 +164,124 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME OF THE PROJECTS I HAVE WORKED ON",
+
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "documentAI",
+      projectName: "Verified Document Intelligence System",
+      projectDesc:
+        "AI-powered document analysis assistant that enables users to upload PDFs and query their content intelligently. The system performs self-verification, confidence scoring, and performance tracking to reduce hallucinated responses in traditional AI systems.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Tech Stack",
+          url: "Python | Streamlit | LangChain | FAISS | Ollama (Phi-3)"
         }
-        //  you can add extra buttons here.
       ]
     },
+
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "resumeAI",
+      projectName: "AI-Powered Resume and Job Description Matcher",
+      projectDesc:
+        "Intelligent resume matching system that helps job seekers and recruiters by comparing resumes with job descriptions to identify the best fit using AI-driven matching techniques.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Tech Stack",
+          url: "Python | HTML | CSS"
+        }
+      ]
+    },
+
+    {
+      image: "journeyAI",
+      projectName: "JourneyX AI Planner",
+      projectDesc:
+        "AI-powered travel planning application that generates personalized itineraries, estimated budgets, and travel recommendations based on destination, preferences, dates, and user inputs.",
+      footerLink: [
+        {
+          name: "Tech Stack",
+          url: "Lovable | n8n | OpenAI API"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
+  
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements & Certifications",
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "RESEARCH CONTRIBUTIONS, CERTIFICATIONS, AND ACADEMIC ACHIEVEMENTS",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title:
+        "Quantum Safe Encryption for Securing Healthcare Data",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Published research paper in the 2025 3rd World Conference on Communication & Computing (WCONF). Developed a quantum-safe encryption framework using CRYSTALS-Kyber, Diffie-Hellman key exchange, and AES encryption for securing healthcare data.",
+
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Publication",
+          url: "https://doi.org/10.1109/WCONF64849.2025.11233562"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title:
+        "Salesforce Certified Agentforce Specialist",
+      subtitle:
+        "Professional certification in Salesforce Agentforce technologies (Dec 2025).",
+
+      footerLink: []
+    },
+
+    {
+      title:
+        "SQL and Relational Databases 101",
+      subtitle:
+        "Completed certification by IBM Developer Skills Network focused on SQL fundamentals and relational databases (May 2025).",
+
+      footerLink: []
+    },
+
+    {
+      title:
+        "Frontend with JavaScript",
+      subtitle:
+        "Completed certification by TASK focused on frontend development concepts using JavaScript (Feb 2025).",
+
+      footerLink: []
+    },
+
+    {
+      title:
+        "Java Foundations Certificate",
+      subtitle:
+        "Completed Oracle Academy certification covering Java fundamentals and programming concepts (Sep 2024).",
+
+      footerLink: []
+    },
+
+    {
+      title:
+        "Generative AI",
+      subtitle:
+        "Completed Google Cloud certification focused on Generative AI concepts and applications (Aug 2024).",
+
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
 
 // Blogs Section
@@ -367,11 +350,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel free to connect for internships, collaborations, or opportunities.",
+  number: "+91 8106871348",
+  email_address: "23211a0586@bvrit.ac.in"
 };
 
 // Twitter Section
@@ -381,7 +364,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

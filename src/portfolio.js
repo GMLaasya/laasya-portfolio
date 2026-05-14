@@ -23,8 +23,10 @@ const greeting = {
   username: "G M Laasya",
   title: "Hi all, I'm G M Laasya ",
   subTitle: emoji(
-    "Computer Science Engineering student passionate about Artificial Intelligence, secure systems, and problem-solving. Experienced in building AI-powered applications, intelligent systems, and research-driven projects with hands-on expertise in Python, Java, and modern development tools."),
-  resumeLink: "/G_M_Laasya_Resume(24.03.2026).pdf", // Set to empty to hide the button
+  "Computer Science Engineering student passionate about Artificial Intelligence, secure systems, and problem solving."
+),
+
+resumeLink: "/G_M_Laasya_Resume(24.03.2026).pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

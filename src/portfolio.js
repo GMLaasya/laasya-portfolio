@@ -19,13 +19,13 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
-cconst greeting = {
+const greeting = {
   username: "G M Laasya",
-  title: "Hi all, I'm G M Laasya",
+  title: "Hi all, I'm G M Laasya 👋",
   subTitle: emoji(
-  "Computer Science Engineering student passionate about Artificial Intelligence, secure systems, and cloud computing."
-),
-resumeLink: "/G_M_Laasya_Resume(24.03.2026).pdf",
+    "Computer Science Engineering student passionate about Artificial Intelligence,  Cloud Computing, and Secure Systems."
+  ),
+  resumeLink: "/G_M_Laasya_Resume(24.03.2026).pdf",
   displayGreeting: true
 };
 

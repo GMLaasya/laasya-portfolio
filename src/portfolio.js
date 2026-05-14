@@ -16,7 +16,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Computer Science Engineering student passionate about Artificial Intelligence, Cloud Computing, and Secure Systems."
   ),
-  resumeLink: "/G_M_Laasya_Resume(24.03.2026).pdf",
+  resumeLink: "",
   displayGreeting: true
 };
 
@@ -135,14 +135,16 @@ const workExperiences = {
     {
       role: "AI Summer Intern",
       company: "Mirai School of Technology",
+      companylogo: require("./assets/images/Mirai Certificate.jpeg"),
       date: "2026",
+
       desc:
-        "Gained hands-on experience with AI tools, frameworks, and real-world project development. Worked on applying AI concepts to practical problem-solving while strengthening knowledge in intelligent systems and emerging technologies.",
+        "Completed an AI Summer Internship focused on Artificial Intelligence tools, frameworks, and real-world project development. Gained practical exposure to intelligent systems and AI-based problem-solving.",
 
       descBullets: [
         "Explored AI tools and frameworks",
-        "Worked on real-time AI-based projects",
-        "Strengthened practical AI knowledge"
+        "Worked on AI-based real-world projects",
+        "Strengthened practical understanding of intelligent systems"
       ]
     }
   ],

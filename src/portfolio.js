@@ -166,21 +166,48 @@ const bigProjects = {
 
   projects: [
     {
+<<<<<<< HEAD
+      {
+  projectName: "Verified Document Intelligence System",
+  projectDesc:
+    "AI-powered document analysis assistant that enables users to upload PDFs and query their content.\n\n🔧 Tech Stack:\nPython | Streamlit | LangChain | FAISS | Ollama (Phi-3)"
+},
+      
+=======
       projectName: "Verified Document Intelligence System",
       projectDesc:
         "AI-powered document analysis assistant that enables users to upload PDFs and query their content.\n\nTech Stack: Python | Streamlit | LangChain | FAISS | Ollama (Phi-3)"
+>>>>>>> f81606432a074318335d50e270cca6505509e91a
     },
 
     {
+<<<<<<< HEAD
+      {
+  projectName: "AI-Powered Resume and Job Description Matcher",
+  projectDesc:
+    "Intelligent resume matching system that helps job seekers and recruiters compare resumes with job descriptions.\n\n🔧 Tech Stack:\nPython | NLP | Machine Learning | Streamlit"
+},
+        
+=======
       projectName: "AI-Powered Resume and Job Description Matcher",
       projectDesc:
         "Intelligent resume matching system that helps job seekers and recruiters compare resumes with job descriptions.\n\nTech Stack: Python | NLP | Machine Learning | Streamlit"
+>>>>>>> f81606432a074318335d50e270cca6505509e91a
     },
 
     {
+<<<<<<< HEAD
+      {
+  projectName: "JourneyX Planner",
+  projectDesc:
+    "Smart travel planning application that helps users organize trips, discover destinations, and manage travel itineraries efficiently.\n\n🔧 Tech Stack:\nReact.js | JavaScript | HTML | CSS | API Integration"
+},
+      
+=======
       projectName: "JourneyX Planner",
       projectDesc:
         "Smart travel planning application that helps users organize trips, discover destinations, and manage travel itineraries efficiently.\n\nTech Stack: React.js | JavaScript | HTML | CSS | API Integration"
+>>>>>>> f81606432a074318335d50e270cca6505509e91a
     }
   ],
 

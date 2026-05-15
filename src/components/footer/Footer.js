@@ -7,11 +7,8 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Footer() {
   const {isDark} = useContext(StyleContext);
   return (
-    <Fade bottom duration={1000} distance="5px">
-      <div className="footer-div">
-        <div></div>
-        </p>
-      </div>
-    </Fade>
-  );
+  <Fade bottom duration={1000} distance="5px">
+    <div className="footer-div"></div>
+  </Fade>
+);
 }

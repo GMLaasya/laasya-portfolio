@@ -165,32 +165,23 @@ const bigProjects = {
   subtitle: "SOME OF THE PROJECTS I HAVE WORKED ON",
 
   projects: [
-    
-      {
-  projectName: "Verified Document Intelligence System",
-  projectDesc:
-    "AI-powered document analysis assistant that enables users to upload PDFs and query their content.\n\nTech Stack: Python | Streamlit | LangChain | FAISS | Ollama (Phi-3)"
-},
-      
-    
+    {
+      projectName: "Verified Document Intelligence System",
+      projectDesc:
+        "AI-powered document analysis assistant that enables users to upload PDFs and query their content.\n\nTech Stack: Python | Streamlit | LangChain | FAISS | Ollama (Phi-3)"
+    },
 
-    
-      {
-  projectName: "AI-Powered Resume and Job Description Matcher",
-  projectDesc:
-    "Intelligent resume matching system that helps job seekers and recruiters compare resumes with job descriptions.\n\nTech Stack: Python | NLP | Machine Learning | Streamlit"
-},
-        
-    
+    {
+      projectName: "AI-Powered Resume and Job Description Matcher",
+      projectDesc:
+        "Intelligent resume matching system that helps job seekers and recruiters compare resumes with job descriptions.\n\nTech Stack: Python | NLP | Machine Learning | Streamlit"
+    },
 
-    
-      {
-  projectName: "JourneyX Planner",
-  projectDesc:
-    "Smart travel planning application that helps users organize trips, discover destinations, and manage travel itineraries efficiently.\n\nTech Stack: React.js | JavaScript | HTML | CSS | API Integration"
-},
-      
-    
+    {
+      projectName: "JourneyX Planner",
+      projectDesc:
+        "Smart travel planning application that helps users organize trips, discover destinations, and manage travel itineraries efficiently.\n\nTech Stack: React.js | JavaScript | HTML | CSS | API Integration"
+    }
   ],
 
   display: true

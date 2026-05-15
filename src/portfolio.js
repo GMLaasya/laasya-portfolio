@@ -166,39 +166,30 @@ const bigProjects = {
 
   projects: [
     {
-      projectName: "Verified Document Intelligence System",
-      projectDesc:
-        "AI-powered document analysis assistant that enables users to upload PDFs and query their content intelligently. The system performs self-verification, confidence scoring, and performance tracking to reduce hallucinated responses in traditional AI systems.",
-      footerLink: [
-        {
-          name: "Tech Stack",
-          url: "Python | Streamlit | LangChain | FAISS | Ollama (Phi-3)"
-        }
-      ]
+      {
+  projectName: "Verified Document Intelligence System",
+  projectDesc:
+    "AI-powered document analysis assistant that enables users to upload PDFs and query their content.\n\nTech Stack: Python | Streamlit | LangChain | FAISS | Ollama (Phi-3)"
+},
+      
     },
 
     {
-      projectName: "AI-Powered Resume and Job Description Matcher",
-      projectDesc:
-        "Intelligent resume matching system that helps job seekers and recruiters by comparing resumes with job descriptions to identify the best fit using AI-driven matching techniques.",
-      footerLink: [
-        {
-          name: "Tech Stack",
-          url: "Python | HTML | CSS"
-        }
-      ]
+      {
+  projectName: "AI-Powered Resume and Job Description Matcher",
+  projectDesc:
+    "Intelligent resume matching system that helps job seekers and recruiters compare resumes with job descriptions.\n\nTech Stack: Python | NLP | Machine Learning | Streamlit"
+},
+        
     },
 
     {
-      projectName: "JourneyX AI Planner",
-      projectDesc:
-        "AI-powered travel planning application that generates personalized itineraries, estimated budgets, and travel recommendations based on destination, preferences, dates, and user inputs.",
-      footerLink: [
-        {
-          name: "Tech Stack",
-          url: "Lovable | n8n | OpenAI API"
-        }
-      ]
+      {
+  projectName: "JourneyX Planner",
+  projectDesc:
+    "Smart travel planning application that helps users organize trips, discover destinations, and manage travel itineraries efficiently.\n\nTech Stack: React.js | JavaScript | HTML | CSS | API Integration"
+},
+      
     }
   ],
 
